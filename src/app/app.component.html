@@ -1,3 +1,6 @@
 <h1>{{ title }}</h1>
 
-<button *ngif="increment"></button>
+<button (click)="increase()">+</button>
+{{ count }}
+<button (click)="decrease()">-</button>
+<br />
